@@ -3,6 +3,7 @@ AC_INIT([sbus], [0.0.1], [maciek.borzecki@gmail.com])
 AC_CONFIG_SRCDIR([daemon/main.c])
 AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE
+AM_PROG_LIBTOOL
 
 # Checks for programs.
 AC_PROG_CC
