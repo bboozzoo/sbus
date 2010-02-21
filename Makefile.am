@@ -1,2 +1,3 @@
-SUBDIRS = sbusd \
+SUBDIRS = sbus \
+		  daemon \
 		  test
